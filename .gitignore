@@ -1,2 +1,7 @@
 *.sqlite3
 venv
+README.md
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
