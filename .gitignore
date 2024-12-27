@@ -1,7 +1,4 @@
 *.sqlite3
 venv
-README.md
-__pycache__/
 *.pyc
-*.pyo
-*.pyd
+gestao_rh/__pycache__/
