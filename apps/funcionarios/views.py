@@ -1,5 +1,5 @@
 
-from django.views.generic import ListView
+from django.views.generic import ListView, UpdateView
 from .models import Funcionario
 
 
@@ -13,3 +13,8 @@ class FuncionariosList(ListView):
         queryset = Funcionario.objects.filter(empresa = empresa_logada)
             
         return queryset
+    
+
+class FuncionarioEdit(UpdateView):
+    model = Funcionario
+    fields = ['name', 'departamentos']
