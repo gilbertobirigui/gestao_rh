@@ -112,3 +112,6 @@ git rm --cached gestao_rh/__pychace__/ -r
 
 
 
+# django static files
+https://docs.djangoproject.com/en/5.1/howto/static-files/
+

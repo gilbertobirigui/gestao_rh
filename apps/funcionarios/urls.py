@@ -3,6 +3,6 @@ from .views import home
 
 urlpatterns = [
     path('', home),
-    # path('', include('apps.funcionario.urls')),
+    # path('', include('apps.funcionarios.urls')),
 
 ]

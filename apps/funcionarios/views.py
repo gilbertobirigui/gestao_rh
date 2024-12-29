@@ -3,4 +3,4 @@ from django.shortcuts import render
 
 
 def home(request):
-    return HttpResponse('Ola')
+    return HttpResponse('Tela de funcionarios')
